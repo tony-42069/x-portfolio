@@ -1,6 +1,6 @@
 # X Web Engineer Portfolio
 
-![Portfolio Preview](public/preview.png)
+![Portfolio Preview](https://raw.githubusercontent.com/tony-42069/x-portfolio/main/public/preview.png)
 
 ## 🚀 Overview
 
