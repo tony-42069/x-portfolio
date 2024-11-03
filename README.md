@@ -50,7 +50,7 @@ src/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/[your-username]/x-portfolio.git
+   git clone https://github.com/tony-42069/x-portfolio.git
    ```
 
 2. Install dependencies:
