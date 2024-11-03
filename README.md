@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# X Web Engineer Portfolio
 
-## Getting Started
+![Portfolio Preview](public/preview.png)
 
-First, run the development server:
+## 🚀 Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+A modern, responsive portfolio site showcasing my journey as a Web Engineer, built with Next.js and Tailwind CSS. This project demonstrates my ability to ship products quickly while maintaining high quality standards.
+
+### ✨ Features
+
+- **Responsive Design**: Seamless experience across all devices
+- **Modern Stack**: Built with Next.js 15 and Tailwind CSS
+- **Smooth Animations**: Powered by Framer Motion
+- **Interactive UI**: Using Radix UI components
+- **Performance Optimized**: Fast loading and rendering
+
+## 🛠 Tech Stack
+
+- **Framework**: Next.js 15.0.2
+- **UI**: Tailwind CSS, Radix UI
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Deployment**: Vercel
+
+## 🚀 Live Demo
+
+Visit the live site: [X Web Engineer Portfolio](https://x-portfolio-[your-vercel-url].vercel.app)
+
+## 📂 Project Structure
+
+```
+src/
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── sections/
+│   │   ├── hero.tsx
+│   │   ├── portfolio.tsx
+│   │   ├── evidence.tsx
+│   │   ├── vision.tsx
+│   │   └── background.tsx
+│   └── ui/
+└── lib/
+    └── utils.ts
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🏃‍♂️ Running Locally
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/[your-username]/x-portfolio.git
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. Install dependencies:
+   ```bash
+   cd x-portfolio
+   npm install --legacy-peer-deps
+   ```
 
-## Learn More
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📱 Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is deployed on Vercel with continuous deployment enabled. Any push to the main branch will trigger a new deployment automatically.
 
-## Deploy on Vercel
+## 📄 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+Built by Dorian
