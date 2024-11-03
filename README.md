@@ -24,7 +24,7 @@ A modern, responsive portfolio site showcasing my journey as a Web Engineer, bui
 
 ## 🚀 Live Demo
 
-Visit the live site: [X Web Engineer Portfolio](https://x-portfolio-[your-vercel-url].vercel.app)
+Visit the live site: [X Web Engineer Portfolio](https://x-portfolio-phi.vercel.app/))
 
 ## 📂 Project Structure
 
