@@ -86,21 +86,21 @@ const EvidenceSection = () => {
           className="bg-gray-800 rounded-lg p-8"
         >
           <h3 className="text-2xl font-bold text-white mb-6">Key Achievements</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {achievements.map((achievement, index) => (
-              <motion.div
+          <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {achievements.map((achievement) => (
+              <motion.li
                 key={achievement}
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
+                transition={{ duration: 0.6 }}
                 className="flex items-center text-gray-300"
               >
-                <div className="mr-3 text-blue-400">•</div>
+                <span className="mr-3 text-blue-400">•</span>
                 {achievement}
-              </motion.div>
+              </motion.li>
             ))}
-          </div>
+          </ul>
         </motion.div>
 
         {/* Recommendation Letter */}
@@ -111,15 +111,26 @@ const EvidenceSection = () => {
           transition={{ duration: 0.6 }}
           className="mt-16 text-center"
         >
-          <a
-            href="/letter-of-recommendation.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center px-6 py-3 text-lg font-medium text-white bg-blue-600 rounded-full hover:bg-blue-700 transition-colors"
-          >
-            View Letter of Recommendation
-            <ArrowRight className="ml-2 w-5 h-5" />
-          </a>
+          <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4">
+            <a
+              href="/letter-of-recommendation.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-6 py-3 text-lg font-medium text-white bg-blue-600 rounded-full hover:bg-blue-700 transition-colors"
+            >
+              View Letter of Recommendation
+              <ArrowRight className="ml-2 w-5 h-5" />
+            </a>
+            <a
+              href="/letter-of-recommendation-2.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-6 py-3 text-lg font-medium text-white bg-blue-600 rounded-full hover:bg-blue-700 transition-colors"
+            >
+              View Second Recommendation
+              <ArrowRight className="ml-2 w-5 h-5" />
+            </a>
+          </div>
         </motion.div>
       </div>
     </section>
