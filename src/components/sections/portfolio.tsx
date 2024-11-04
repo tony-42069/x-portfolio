@@ -41,7 +41,7 @@ const projects = [
   },
   {
     title: "Todo List App",
-    description: "My first web development project that sparked everything. A simple but functional todo list application.",
+    description: "My first web development project that sparked everything. A simple but functional to-do list application.",
     tech: ["React", "JavaScript", "Frontend"],
     repoLink: "https://github.com/tony-42069/todo-list-app",
     isMain: true
