@@ -47,27 +47,26 @@ const tweets: Tweet[] = [
   {
     id: '8',
     date: "Nov 11, 2023",
-    url: "https://x.com/CREdebtDorian/status/1786500928373170422"
+    url: "https://x.com/credebtdorian/status/1793327014356631790?s=46&t=F1_tmskLHjlZvUBm_gIWjA"
   }
 ]
 
 const TweetCard = ({ tweet }: { tweet: Tweet }) => (
-  <div className="bg-slate-800 rounded-lg p-6 hover:bg-slate-700 transition-colors">
-    <div className="flex justify-between items-center">
-      <span className="text-slate-400 text-sm">{tweet.date}</span>
-      
-        href={tweet.url}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-400 hover:text-blue-300 flex items-center gap-1"
-      >
-        <span className="text-sm">View on X</span>
-        <ExternalLink size={14} />
-      </a>
+    <div className="bg-slate-800 rounded-lg p-6 hover:bg-slate-700 transition-colors">
+      <div className="flex justify-between items-center">
+        <span className="text-slate-400 text-sm">{tweet.date}</span>
+        <a
+          href={tweet.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-400 hover:text-blue-300 flex items-center gap-1"
+        >
+          <span className="text-sm">View on X</span>
+          <ExternalLink size={14} />
+        </a>
+      </div>
     </div>
-  </div>
-)
-
+  )
 const TweetShowcase = () => {
   return (
     <section className="py-20" id="tweets">
