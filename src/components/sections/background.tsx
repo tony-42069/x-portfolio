@@ -13,7 +13,7 @@ const timeline = [
   },
   {
     year: "2021-Present",
-    title: "Founder & President",
+    title: "Founder",
     company: "Alliance Business Advisors",
     description: "Founded and scaled successful business advisory firm. Integrated AI solutions and built automated systems.",
     icon: Building2
