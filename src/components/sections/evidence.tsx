@@ -24,7 +24,7 @@ const stats = [
   },
   {
     label: "Ship Velocity",
-    value: "2-3",
+    value: "1-3",
     description: "Days from idea to production",
     icon: Award
   }
