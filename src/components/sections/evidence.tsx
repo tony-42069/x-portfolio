@@ -5,32 +5,38 @@ import { Award, GitCommit, Rocket, Zap, ArrowRight } from "lucide-react"
 
 const stats = [
   {
-    label: "Repositories",
-    value: "15+",
-    description: "Active GitHub projects",
+    label: "Active Projects",
+    value: "12+",
+    description: "Production-ready applications",
     icon: GitCommit
   },
   {
-    label: "Development Velocity",
-    value: "2-3 Days",
-    description: "Average feature implementation time",
+    label: "AI Integrations",
+    value: "5+",
+    description: "Custom AI solutions deployed",
+    icon: Zap
+  },
+  {
+    label: "CRE Tools",
+    value: "6+",
+    description: "Financial analysis platforms",
     icon: Rocket
   },
   {
-    label: "AI Integration",
-    value: "5+",
-    description: "AI-powered applications",
+    label: "User Impact",
+    value: "500+",
+    description: "Monthly active users",
     icon: Award
   }
 ]
 
 const achievements = [
-  "Built and deployed multiple production-ready applications",
-  "Implemented sophisticated financial analysis tools",
-  "Developed advanced AI integration systems",
-  "Created complex prompt engineering solutions",
-  "Maintained high development velocity",
-  "Successfully integrated multiple AI models"
+  "Built multiple production-ready CRE analysis tools",
+  "Developed custom AI chatbots with RAG architecture",
+  "Created innovative financial modeling applications",
+  "Implemented advanced prompt engineering systems",
+  "Launched Chrome extension with AI capabilities",
+  "Designed real-time data visualization dashboards"
 ]
 
 const EvidenceSection = () => {
