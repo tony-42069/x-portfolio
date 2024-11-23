@@ -59,6 +59,34 @@ const projects = [
     tech: ["Python", "AI", "NLP"],
     repoLink: "https://github.com/tony-42069/prompt-engineering-tools",
     isMain: false
+  },
+  {
+    title: "AI Chatbot",
+    description: "Customizable AI chatbot with advanced conversation capabilities.",
+    tech: ["Python", "AI", "Natural Language Processing"],
+    repoLink: "https://github.com/tony-42069/ai-chatbot",
+    isMain: false
+  },
+  {
+    title: "Real Estate Market Analysis",
+    description: "Tool for analyzing real estate market trends and opportunities.",
+    tech: ["Python", "Data Analysis", "Real Estate"],
+    repoLink: "https://github.com/tony-42069/real-estate-market-analysis",
+    isMain: false
+  },
+  {
+    title: "Investment Calculator",
+    description: "Advanced calculator for various investment scenarios and metrics.",
+    tech: ["JavaScript", "Financial Analysis", "Web Development"],
+    repoLink: "https://github.com/tony-42069/investment-calculator",
+    isMain: false
+  },
+  {
+    title: "Property Management System",
+    description: "System for managing real estate properties and tenant relationships.",
+    tech: ["React", "Node.js", "Database"],
+    repoLink: "https://github.com/tony-42069/property-management",
+    isMain: false
   }
 ]
 
