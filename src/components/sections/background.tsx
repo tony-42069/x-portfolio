@@ -7,7 +7,6 @@ const timeline = [
   {
     year: "2024",
     title: "Full-Stack Developer & AI Engineering Lead",
-    company: "Self-employed",
     description: "Mastered full-stack development at unprecedented rate. Built and shipped multiple products including CRE Analyzer and AI tools.",
     icon: Code
   },

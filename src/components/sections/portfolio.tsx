@@ -40,11 +40,25 @@ const projects = [
     isMain: true
   },
   {
-    title: "Todo List App",
-    description: "My first web development project that sparked everything. A simple but functional to-do list application.",
-    tech: ["React", "JavaScript", "Frontend"],
-    repoLink: "https://github.com/tony-42069/todo-list-app",
+    title: "Personal Portfolio",
+    description: "My professional portfolio website showcasing projects and achievements.",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+    repoLink: "https://github.com/tony-42069/x-portfolio",
     isMain: true
+  },
+  {
+    title: "AI Code Assistant",
+    description: "Custom AI coding assistant implementation using local models.",
+    tech: ["Python", "AI", "Ollama"],
+    repoLink: "https://github.com/tony-42069/ai-code-assistant",
+    isMain: false
+  },
+  {
+    title: "Prompt Engineering Tools",
+    description: "Collection of tools and utilities for advanced prompt engineering.",
+    tech: ["Python", "AI", "NLP"],
+    repoLink: "https://github.com/tony-42069/prompt-engineering-tools",
+    isMain: false
   }
 ]
 
@@ -59,9 +73,9 @@ const PortfolioSection = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold text-white mb-4">Featured Projects</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">Project Portfolio</h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            From my first todo app to sophisticated financial tools, here's my journey in shipping products.
+            A collection of my projects showcasing expertise in AI, financial analysis, and web development.
           </p>
         </motion.div>
 

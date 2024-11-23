@@ -5,38 +5,32 @@ import { Award, GitCommit, Rocket, Zap, ArrowRight } from "lucide-react"
 
 const stats = [
   {
-    label: "Learning Rate",
-    value: "Top 0.1%",
-    description: "Documented exceptional learning velocity",
-    icon: Zap
-  },
-  {
     label: "Repositories",
-    value: "9",
-    description: "Shipped in under 60 days",
+    value: "15+",
+    description: "Active GitHub projects",
     icon: GitCommit
   },
   {
     label: "Development Velocity",
-    value: "3 Days",
-    description: "Average time to ship new features",
+    value: "2-3 Days",
+    description: "Average feature implementation time",
     icon: Rocket
   },
   {
-    label: "Platform Expertise",
-    value: "25%+",
-    description: "Newsletter engagement rate",
+    label: "AI Integration",
+    value: "5+",
+    description: "AI-powered applications",
     icon: Award
   }
 ]
 
 const achievements = [
-  "Mastered full-stack development stack in record time",
-  "Built and deployed multiple production applications",
-  "Implemented complex financial analysis tools",
-  "Integrated sophisticated AI systems",
-  "Demonstrated exceptional shipping velocity",
-  "Successfully monetized platform content"
+  "Built and deployed multiple production-ready applications",
+  "Implemented sophisticated financial analysis tools",
+  "Developed advanced AI integration systems",
+  "Created complex prompt engineering solutions",
+  "Maintained high development velocity",
+  "Successfully integrated multiple AI models"
 ]
 
 const EvidenceSection = () => {
@@ -50,9 +44,9 @@ const EvidenceSection = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold text-white mb-4">Evidence of Excellence</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">Professional Excellence</h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Documented achievements and metrics demonstrating exceptional capabilities
+            Demonstrated achievements and metrics showcasing technical capabilities
           </p>
         </motion.div>
 
