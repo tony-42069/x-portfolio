@@ -80,26 +80,6 @@ const BackgroundSection = () => {
             </motion.div>
           ))}
         </div>
-
-        {/* Complete Application Package Button */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="mt-16 flex justify-center"
-        >
-          <a
-            href="/x-application-package.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center px-8 py-4 text-lg font-medium text-white bg-blue-600 rounded-full hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl"
-          >
-            <FileText className="w-6 h-6 mr-3" />
-            View Complete Application Package
-            <ArrowRight className="ml-3 w-6 h-6" />
-          </a>
-        </motion.div>
       </div>
     </section>
   )
