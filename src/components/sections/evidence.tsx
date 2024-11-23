@@ -23,9 +23,9 @@ const stats = [
     icon: Rocket
   },
   {
-    label: "User Impact",
-    value: "500+",
-    description: "Monthly active users",
+    label: "Ship Velocity",
+    value: "2-3",
+    description: "Days from idea to production",
     icon: Award
   }
 ]
