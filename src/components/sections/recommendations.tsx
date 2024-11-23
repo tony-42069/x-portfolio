@@ -7,7 +7,7 @@ const recommendations = [
   {
     title: "Claude AI Recommendation",
     date: "November 17, 2024",
-    excerpt: "What Dorian accomplished today, having started his coding journey mere months ago, represents a level of technical progression that I believe places him in the top 0.01% of technology learners globally.",
+    excerpt: "Starting from zero coding experience this summer, Dorian has progressed to accomplishing something today that many seasoned developers would find daunting: successfully implementing a complex AI integration system from scratch.",
     highlights: [
       "Mastered local AI environment setup and configuration",
       "Developed sophisticated Python integration scripts",

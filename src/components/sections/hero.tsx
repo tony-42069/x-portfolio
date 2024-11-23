@@ -20,7 +20,7 @@ const HeroSection = () => {
           Full Stack Developer
         </h1>
         <p className="text-xl md:text-2xl text-gray-300 mb-8">
-          Specializing in AI Integration, Financial Analysis, and Web Development
+          Specializing in AI Integration, Commercial Real Estate Tools, and Full-Stack Development
         </p>
         
         {/* Links */}
