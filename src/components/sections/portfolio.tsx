@@ -5,87 +5,87 @@ import { Github, ExternalLink } from "lucide-react"
 
 const projects = [
   {
-    title: "Does My Deal Pencil?",
-    description: "A web-based tool designed to help real estate investors analyze the profitability of commercial real estate deals quickly and efficiently.",
-    tech: ["HTML", "JavaScript", "Financial Modeling"],
+    title: "CRE Analyzer",
+    description: "'Does my deal pencil? ✏️'™ is a sophisticated web application designed for rapid commercial real estate investment analysis. Perfect for investors, brokers, and analysts who need quick, professional evaluations.",
+    tech: ["TypeScript", "React", "Financial Analysis"],
     repoLink: "https://github.com/tony-42069/cre-analyzer",
     isMain: true
   },
   {
-    title: "Will This Buy Fly?",
-    description: "A tool designed to evaluate potential business acquisitions by analyzing key financial and operational factors.",
-    tech: ["React", "Financial Analysis", "TypeScript"],
-    repoLink: "https://github.com/tony-42069/dscr-calculator",
+    title: "Business Acquisition Analyzer",
+    description: "'Will My Buy Fly? ✈️' is an advanced business acquisition analysis tool that helps entrepreneurs evaluate potential business purchases through advanced financial metrics and risk assessment.",
+    tech: ["TypeScript", "React", "Financial Modeling"],
+    repoLink: "https://github.com/tony-42069/biz-acquisition",
     isMain: true
   },
   {
-    title: "AI Tools for CRE Professionals",
-    description: "Curated platform for industry professionals integrating cutting-edge AI tools and resources.",
-    tech: ["React", "AI Integration", "Documentation"],
-    repoLink: "https://github.com/tony-42069/ai-tools-for-cre-professionals",
+    title: "CRE Chatbot RAG",
+    description: "A powerful Retrieval-Augmented Generation (RAG) chatbot designed to revolutionize how professionals understand commercial real estate concepts. Built with Azure OpenAI and modern Python technologies.",
+    tech: ["Python", "Azure OpenAI", "RAG"],
+    repoLink: "https://github.com/tony-42069/cre-chatbot-rag",
     isMain: true
   },
   {
-    title: "X Election Tracker",
-    description: "Real-time sentiment analysis dashboard tracking public opinion for the 2024 presidential race.",
-    tech: ["React", "Data Visualization", "API Integration"],
-    repoLink: "https://github.com/tony-42069/X-Election-Tracker",
+    title: "Jake AI",
+    description: "🤖🏠 AI Jake is not your typical sales bot. He's a high-energy, unhinged, door-to-door salesman turned AI, fine-tuned with Mistral and fueled by the wild world of MLM saga stories.",
+    tech: ["Python", "Mistral AI", "Fine-tuning"],
+    repoLink: "https://github.com/tony-42069/jake-ai",
     isMain: true
   },
   {
     title: "AI Dynamic Wallpaper",
-    description: "Automated AI wallpaper generator using Black Forest Labs' Flux API.",
+    description: "An automated AI wallpaper generator using Black Forest Labs' Flux API.",
     tech: ["Python", "AI", "API Integration"],
     repoLink: "https://github.com/tony-42069/ai-dynamic-wallpaper",
     isMain: true
   },
   {
-    title: "Personal Portfolio",
-    description: "My professional portfolio website showcasing projects and achievements.",
-    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
-    repoLink: "https://github.com/tony-42069/x-portfolio",
+    title: "AI Bookmark Manager",
+    description: "AI powered bookmark manager for Chrome.",
+    tech: ["TypeScript", "Chrome Extension", "AI"],
+    repoLink: "https://github.com/tony-42069/bookmark-manager",
     isMain: true
   },
   {
-    title: "AI Code Assistant",
-    description: "Custom AI coding assistant implementation using local models.",
-    tech: ["Python", "AI", "Ollama"],
-    repoLink: "https://github.com/tony-42069/ai-code-assistant",
+    title: "CRE SOFR Spreads Dashboard",
+    description: "A dynamic web page that visualizes current SOFR spreads across different commercial real estate asset classes, providing breakdowns for industrial, multifamily, and other sectors.",
+    tech: ["HTML", "JavaScript", "Data Visualization"],
+    repoLink: "https://github.com/tony-42069/cre-sofr-spreads-dashboard",
     isMain: false
   },
   {
-    title: "Prompt Engineering Tools",
-    description: "Collection of tools and utilities for advanced prompt engineering.",
-    tech: ["Python", "AI", "NLP"],
-    repoLink: "https://github.com/tony-42069/prompt-engineering-tools",
+    title: "2024 Election Predictor",
+    description: "A fun and interactive way to 'predict' the 2024 US Presidential Election through random chance visualization.",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+    repoLink: "https://github.com/tony-42069/election-predictor-2024",
     isMain: false
   },
   {
-    title: "AI Chatbot",
-    description: "Customizable AI chatbot with advanced conversation capabilities.",
-    tech: ["Python", "AI", "Natural Language Processing"],
-    repoLink: "https://github.com/tony-42069/ai-chatbot",
+    title: "X Election Tracker",
+    description: "2024 Presidential Race Sentiment Tracker. A real-time sentiment analysis dashboard tracking public opinion on X for the unprecedented 2024 presidential race.",
+    tech: ["HTML", "JavaScript", "Sentiment Analysis"],
+    repoLink: "https://github.com/tony-42069/X-Election-Tracker",
     isMain: false
   },
   {
-    title: "Real Estate Market Analysis",
-    description: "Tool for analyzing real estate market trends and opportunities.",
-    tech: ["Python", "Data Analysis", "Real Estate"],
-    repoLink: "https://github.com/tony-42069/real-estate-market-analysis",
+    title: "AI Tools for CRE Professionals",
+    description: "A curated list of AI-powered resources for commercial real estate professionals, helping brokers and investors gain a competitive advantage.",
+    tech: ["HTML", "Documentation", "AI Resources"],
+    repoLink: "https://github.com/tony-42069/ai-tools-for-cre-professionals",
     isMain: false
   },
   {
-    title: "Investment Calculator",
-    description: "Advanced calculator for various investment scenarios and metrics.",
-    tech: ["JavaScript", "Financial Analysis", "Web Development"],
-    repoLink: "https://github.com/tony-42069/investment-calculator",
+    title: "DSCR Calculator",
+    description: "'Will this buy fly?'™ is a tool designed to evaluate potential business acquisitions by analyzing key financial and operational factors.",
+    tech: ["JavaScript", "Financial Analysis", "Calculator"],
+    repoLink: "https://github.com/tony-42069/dscr-calculator",
     isMain: false
   },
   {
-    title: "Property Management System",
-    description: "System for managing real estate properties and tenant relationships.",
-    tech: ["React", "Node.js", "Database"],
-    repoLink: "https://github.com/tony-42069/property-management",
+    title: "Todo List App",
+    description: "A React-based todo list application allowing users to create, manage, and track their todo items.",
+    tech: ["JavaScript", "React", "Frontend"],
+    repoLink: "https://github.com/tony-42069/todo-list-app",
     isMain: false
   }
 ]
