@@ -1,30 +1,41 @@
-# X Web Engineer Portfolio
+# AI/ML Engineer Portfolio
 
 ![Portfolio Preview](https://raw.githubusercontent.com/tony-42069/x-portfolio/main/public/preview.png)
 
 ## 🚀 Overview
 
-A modern, responsive portfolio site showcasing my journey as a Web Engineer, built with Next.js and Tailwind CSS. This project demonstrates my ability to ship products quickly while maintaining high quality standards.
+A showcase of cutting-edge AI/ML engineering and full-stack development work. This portfolio demonstrates expertise in advanced machine learning, including successful fine-tuning and deployment of large language models, alongside modern web development capabilities.
 
-### ✨ Features
+### 🎯 Core Competencies
 
-- **Responsive Design**: Seamless experience across all devices
-- **Modern Stack**: Built with Next.js 15 and Tailwind CSS
-- **Smooth Animations**: Powered by Framer Motion
-- **Interactive UI**: Using Radix UI components
-- **Performance Optimized**: Fast loading and rendering
+- **Advanced Machine Learning**: Successfully fine-tuned and deployed 34B parameter LLMs
+- **Deep Learning**: Mastery of model architecture, training, and optimization
+- **MLOps**: Experience with Azure ML infrastructure and A100 GPU computing
+- **Full-Stack Development**: Modern web applications with Next.js and React
+
+### ✨ Technical Achievements
+
+- **LLM Fine-tuning**: Successfully fine-tuned Yi-34B model with 4-bit quantization
+- **Training Optimization**: Achieved significant loss reduction from 4.19 to 1.69
+- **Advanced Techniques**: Implemented LoRA training and complex GPU memory management
+- **Web Development**: Built high-performance, responsive applications
 
 ## 🛠 Tech Stack
 
+### Machine Learning & AI
+- **Models**: Large Language Models (34B parameters)
+- **Infrastructure**: Azure ML, A100 GPUs
+- **Techniques**: LoRA, 4-bit Quantization, Hyperparameter Optimization
+
+### Web Development
 - **Framework**: Next.js 15.0.2
 - **UI**: Tailwind CSS, Radix UI
 - **Animations**: Framer Motion
-- **Icons**: Lucide React
 - **Deployment**: Vercel
 
 ## 🚀 Live Demo
 
-Visit the live site: [X Web Engineer Portfolio](https://x-portfolio-phi.vercel.app/))
+Visit the live site: [AI/ML Engineer Portfolio](https://x-portfolio-phi.vercel.app/)
 
 ## 📂 Project Structure
 
@@ -76,4 +87,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-Built by Dorian
+Built by Dorian Sadellari | AI/ML Engineer & Full Stack Developer
