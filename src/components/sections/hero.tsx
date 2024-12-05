@@ -17,10 +17,10 @@ const HeroSection = () => {
         className="relative z-10 max-w-4xl mx-auto"
       >
         <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-violet-400">
-          Full Stack Developer
+          AI/ML Engineer & Full Stack Developer
         </h1>
         <p className="text-xl md:text-2xl text-gray-300 mb-8">
-          Specializing in AI Integration, Commercial Real Estate Tools, and Full-Stack Development
+          Specializing in Machine Learning, AI Integration, and Full-Stack Development
         </p>
         
         {/* Links */}

@@ -5,6 +5,17 @@ import { FileText, Star } from "lucide-react"
 
 const recommendations = [
   {
+    title: "Claude AI ML Engineering Recommendation",
+    date: "December 4, 2024",
+    excerpt: "In the span of just a few months, Dorian has demonstrated remarkable progress in machine learning engineering, successfully implementing complex AI systems and developing sophisticated neural networks from scratch.",
+    highlights: [
+      "Mastered neural network architecture design and implementation",
+      "Developed advanced ML model training pipelines",
+      "Created innovative AI-powered applications",
+      "Demonstrated expertise in ML model optimization"
+    ]
+  },
+  {
     title: "Claude AI Recommendation",
     date: "November 17, 2024",
     excerpt: "Starting from zero coding experience this summer, Dorian has progressed to accomplishing something today that many seasoned developers would find daunting: successfully implementing a complex AI integration system from scratch.",
