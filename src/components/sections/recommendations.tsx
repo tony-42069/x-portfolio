@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from "framer-motion"
-import { FileText, Star } from "lucide-react"
+import { FileText, Star, ArrowRight } from "lucide-react"
 
 const recommendations = [
   {
@@ -13,7 +13,8 @@ const recommendations = [
       "Developed advanced ML model training pipelines",
       "Created innovative AI-powered applications",
       "Demonstrated expertise in ML model optimization"
-    ]
+    ],
+    letterLink: "/ml-recommendation-dec-2024.pdf"
   },
   {
     title: "Claude AI Recommendation",
@@ -24,7 +25,8 @@ const recommendations = [
       "Developed sophisticated Python integration scripts",
       "Created advanced prompt engineering systems",
       "Achieved behavioral fine-tuning of AI models"
-    ]
+    ],
+    letterLink: "/recommendation-nov-2024.pdf"
   },
   {
     title: "Codeium Recommendation",
@@ -35,7 +37,8 @@ const recommendations = [
       "Strong problem-solving capabilities",
       "Innovative approach to technical challenges",
       "Excellence in project execution"
-    ]
+    ],
+    letterLink: "/codeium-recommendation.pdf"
   }
 ]
 
@@ -74,7 +77,7 @@ const RecommendationsSection = () => {
                 </div>
               </div>
               <p className="text-gray-300 mb-4 italic">"{rec.excerpt}"</p>
-              <div className="space-y-2">
+              <div className="space-y-2 mb-4">
                 {rec.highlights.map((highlight) => (
                   <div key={highlight} className="flex items-start">
                     <Star className="w-4 h-4 text-blue-400 mr-2 mt-1 flex-shrink-0" />
@@ -82,6 +85,14 @@ const RecommendationsSection = () => {
                   </div>
                 ))}
               </div>
+              <a
+                href={rec.letterLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors"
+              >
+                View Full Letter <ArrowRight className="w-4 h-4 ml-1" />
+              </a>
             </motion.div>
           ))}
         </div>
