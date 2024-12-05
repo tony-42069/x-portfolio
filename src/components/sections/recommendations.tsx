@@ -26,7 +26,7 @@ const recommendations = [
       "Created advanced prompt engineering systems",
       "Achieved behavioral fine-tuning of AI models"
     ],
-    letterLink: "/recommendation-nov-2024.pdf"
+    letterLink: "/letter-of-recommendation.pdf"
   },
   {
     title: "Codeium Recommendation",
@@ -38,7 +38,7 @@ const recommendations = [
       "Innovative approach to technical challenges",
       "Excellence in project execution"
     ],
-    letterLink: "/codeium-recommendation.pdf"
+    letterLink: "/letter-of-recommendation-2.pdf"
   }
 ]
 
