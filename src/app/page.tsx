@@ -4,7 +4,6 @@ import PortfolioSection from "@/components/sections/portfolio"
 import EvidenceSection from "@/components/sections/evidence"
 import VisionSection from "@/components/sections/vision"
 import BackgroundSection from "@/components/sections/background"
-import TweetShowcase from "@/components/sections/TweetShowcase"
 import RecommendationsSection from "@/components/sections/recommendations"
 
 export default function Home() {
@@ -17,7 +16,6 @@ export default function Home() {
       <RecommendationsSection />
       <VisionSection />
       <BackgroundSection />
-      <TweetShowcase />
     </div>
   )
 }
